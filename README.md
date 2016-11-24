@@ -108,7 +108,7 @@ The properties you can configure are as follows.
   ionicTimePicker.openTimePicker(ipObj1);
   
   $scope.closeTimePicker = function(){
-      ionicDatePicker.closeTimePicker();
+      ionicTimePicker.closeTimePicker();
   };
 };
 ````
