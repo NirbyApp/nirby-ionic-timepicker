@@ -16,8 +16,11 @@ This plugin is completely open source.
 
 ## Major modifications brought for Nirby needs
 1) Adding the closeTimePicker service
+
 2) Adding closeCallback attribute : this callback is called when the user clicks the "cancel" button
+
 3) Correcting a CSS bug with buttons display
+
 4) Correcting a functional bug related to the time calculation
 
 ## For bundle generation
