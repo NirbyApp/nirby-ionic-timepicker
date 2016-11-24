@@ -96,6 +96,9 @@ The properties you can configure are as follows.
         console.log('Selected epoch is : ', val, 'and the time is ', selectedTime.getUTCHours(), 'H :', selectedTime.getUTCMinutes(), 'M');
       }
     },
+    closeCallback: function(){ //Mandatory
+      // do something when the user clicks the modal/popup's close/cancel button
+    },
     inputTime: 50400,   //Optional
     format: 12,         //Optional
     step: 15,           //Optional
@@ -103,6 +106,10 @@ The properties you can configure are as follows.
   };
   
   ionicTimePicker.openTimePicker(ipObj1);
+  
+  $scope.closeTimePicker = function(){
+      ionicDatePicker.closeTimePicker();
+  };
 };
 ````
 
